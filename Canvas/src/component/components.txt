@@ -1,0 +1,11 @@
+to make the cards resizable
+ <ResizableBox
+      width={card.width}
+      height={card.height}
+      minConstraints={[100, 50]}
+      maxConstraints={[400, 300]}
+      resizeHandles={["se"]}
+      className="absolute bg-white border border-gray-300 shadow-md p-4"
+      style={style}
+      ref={setNodeRef}
+>
